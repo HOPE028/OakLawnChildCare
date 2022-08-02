@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="daycares, childcares, babies, Winnipeg" />
+    <meta
+      name="description"
+      content="Oak Lawn Child Care is a childcare situated in Bridgewater, Winnipeg, Manitoba. It has twelve children and has been designed from the ground to give the kids the best experience possible."
+    />
+    <title>Oak Lawn Child Care</title>
+    <link href="./index.css" rel="stylesheet" />
+    <link href="OaklawnImages/OakLawnIconV.png" rel="icon" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      crossorigin="anonymous"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      rel="stylesheet"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="" id="navbar_logo">
+          <img
+            src="/OaklawnImages/KidsHandX2.png"
+            alt="Oak Lawn Child Care Logo"
+            class="navbar_pic"
+          />
+          Oak Lawn Child Care
+        </a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_btn">
+            <a
+              href="https://oaklawnchildcare-waitlist.netlify.app/"
+              class="button"
+              >WAITLIST</a
+            >
+          </li>
+          <li class="navbar_btn"><a href="#news" class="button">NEWS</a></li>
+          <li class="navbar_btn">
+            <a href="#photoGallery" class="button">PHOTO&nbsp;GALLERY</a>
+          </li>
+          <li class="navbar_btn">
+            <a href="#contact" class="button">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-about-us">
+      <div class="content-about-us">
+        <img
+          alt="Very Cute Picture of a baby at our Child Care"
+          id="img-about-us"
+          src="OaklawnImages/kidHorizontal2.jpg"
+        />
+        <div class="text-about-us">
+          <h2 class="title title-about-us">About Us</h2>
+          <p>
+            <b>Oak Lawn Child Care</b> is a home child care center situated in
+            Bridgewater, Winnipeg, Manitoba. We are fully licensed for 12
+            children. We operate with two staff members at all times and take
+            care of children including Infants, Toddlers, Preschoolers, Pre-K
+            and school students with our Before and After School Program. For
+            Availability please check our
+            <a
+              class="wait"
+              href="https://oaklawnchildcare-waitlist.netlify.app/"
+              >WAITLIST</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="location-marker" id="news"></div>
+    <div class="container-news">
+      <h2 class="title title-container-news">Important News</h2>
+      <div class="text-news">
+        <p>
+          &bull; Spots are all taken! If you would like to be added to the
+          waiting list, click on
+          <a class="links" href="https://oaklawnchildcare-waitlist.netlify.app/"
+            >WAITLIST</a
+          >
+        </p>
+
+        <p>
+          &bull; Oak Lawn Child care is currently open during the pandemic
+          COVID-19. We will adhere to the most recent Public Health orders until
+          further notice.
+        </p>
+      </div>
+    </div>
+
+    <div class="map_container">
+      <div id="map"></div>
+    </div>
+
+    <div class="location-marker" id="photoGallery"></div>
+
+    <!-- photo gallery -->
+
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+
+        <div class="slide first">
+          <img
+            src="./OaklawnImages/kids_painting.jpg"
+            alt="Kids around a table"
+          />
+        </div>
+        <div class="slide">
+          <img src="./OaklawnImages/kids_in_a_house.jpg" alt="Kids painting" />
+        </div>
+        <div class="slide">
+          <img
+            src="./OaklawnImages/kids_playing_with_toys.jpg"
+            alt="Kids playing with toys"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="./OaklawnImages/kids_playing_outside.jpg"
+            alt="Kids painting"
+          />
+        </div>
+
+        <div class="navigation_auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+
+        <div class="navigation_manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="location-marker" id="contact"></div>
+
+    <section class="contact">
+      <div class="content">
+        <h2 id="contact title">Contact Us</h2>
+      </div>
+
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+
+            <div class="text">
+              <h3>Address</h3>
+
+              <p>
+                69 Oak Lawn Rd,<br />
+                Winnipeg, Manitoba,<br />
+                R3Y0K2
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon"><i class="fas fa-phone-alt"></i></div>
+
+            <div class="text">
+              <h3>Phone</h3>
+
+              <p>(204)-619-2783</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon"><i class="far fa-envelope"></i></div>
+
+            <div class="text">
+              <h3>Email</h3>
+
+              <p>
+                oaklawnchildcare<span style="font-size: 1px"> </span>@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contactForm">
+          <form
+            action="https://formsubmit.co/OakLawnChildcare@gmail.com"
+            method="POST"
+          >
+            <h2>Send A Message</h2>
+
+            <div class="inputBox">
+              <p>Full Name</p>
+              <input name="name" required type="text" />
+            </div>
+
+            <div class="inputBox">
+              <p>Email</p>
+              <input name="email" required type="email" />
+            </div>
+
+            <div class="inputBox">
+              <p>Type your message...</p>
+              <input name="message" required type="text" />
+            </div>
+
+            <div class="inputBox">
+              <input name="" type="submit" value="Send" />
+            </div>
+
+            <input
+              name="_subject"
+              type="hidden"
+              value="Message from website!"
+            />
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://oaklawnchildcare.ca/ThankYou.html"
+            />
+
+            <input name="_captcha" type="hidden" value="false" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="container-footer">
+      <img
+        src="/OaklawnImages/KidsHandX2.png"
+        alt="Oak Lawn Child Care Logo"
+        id="logo-footer"
+      />
+      <div class="text-footer">
+        <h3>Oak Lawn Child Care</h3>
+        <h4>© Oak Lawn Child Care 2021. All rights reserved.</h4>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
