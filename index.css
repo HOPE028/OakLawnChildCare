@@ -657,3 +657,9 @@ p ~ .contactForm .inputBox input:valid {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: var(--primary-color);
 }
+
+.contain-withen-size {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}

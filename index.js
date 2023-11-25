@@ -95,8 +95,8 @@ const geojson = {
         coordinates: [-97.187824103618, 49.80401368562028],
       },
       properties: {
-        title: 'Oak Lawn Child Care',
-        description: '69 Oak Lawn Rd',
+        title: 'Old Field Child Care',
+        description: '16 Old Field Crescent',
       },
     },
   ],
